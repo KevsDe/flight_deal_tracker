@@ -13,6 +13,3 @@ def send_email(message):
         connection.login(user=MY_EMAIL, password=EMAIL_PASSWORD)
         connection.sendmail(from_addr=MY_EMAIL, to_addrs=DESTINATION_EMAIL, msg=message)
 
-
-if __name__ == '__main__':
-    send_email()
